@@ -1,0 +1,13 @@
+{
+    "auth": {
+        "login": {
+            "title": "Đăng nhập"
+        },
+        "register": {
+            "title": "Đăng ký"
+        },
+        "form": {
+            "email-placeholder": "Enter your mail"
+        }
+    }
+}

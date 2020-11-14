@@ -1,0 +1,35 @@
+@mixin btn {
+    position: relative;
+    z-index: 0;
+    border-radius: 3px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+    transition: all 120ms ease 0s;
+    user-select: none;
+    overflow: hidden;
+    height: 32px;
+    padding: 0px 12px;
+}
+.btn_primary {
+    @include btn();
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(21, 130, 66);
+    background-color: rgb(19, 170, 82);
+    background-image: linear-gradient(rgb(19, 170, 82), rgb(24, 150, 76));
+    box-shadow: rgb(21, 130, 66) 0px -1px 0px inset;
+}
+.btn_disabled {
+    @include btn();
+    border: 1px solid rgb(184, 196, 194);
+    color: rgb(137, 152, 155);
+    background-color: rgb(231, 238, 236);
+    background-image: none;
+    box-shadow: none;
+    pointer-events: none;
+}

@@ -1,0 +1,13 @@
+{
+    "auth": {
+        "login": {
+            "title": "Login"
+        },
+        "register": {
+            "title": "Register"
+        },
+        "form": {
+            "email-placeholder": "Enter your mail"
+        }
+    }
+}
